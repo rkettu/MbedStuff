@@ -1,0 +1,17 @@
+Some mbed programs I made that I thought were interesting enough to put online
+
+YawFromMagnetometer
+	Lib used: https://os.mbed.com/users/xeta05/code/HMC5883L/
+	Calculates and prints yaw angle (-180 to +180 deg)
+	using magnetometer data. 
+
+PitchRollFromAccelerometerGyroscope
+	Lib used: https://os.mbed.com/users/shimniok/code/L3G4200D/
+	Calculates pitch and roll (tilt angles) from accelerometer
+	and gyroscope data combined with a complementary filter.
+	Used in UnityFlightProject for motion-controlled plane.
+
+GyroParachuteDrop
+	Simple height simulation of a parachute jumper. Turning
+	gyroscope increases air resistance to simulate opening
+	of the parachute.
